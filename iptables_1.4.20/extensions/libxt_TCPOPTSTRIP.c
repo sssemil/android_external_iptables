@@ -28,12 +28,12 @@ static const struct xt_option_entry tcpoptstrip_tg_opts[] = {
 };
 
 static const struct tcp_optionmap tcp_optionmap[] = {
-	{"wscale",         "Window scale",         TCPOPT_WINDOW},
-	{"mss",            "Maximum Segment Size", TCPOPT_MAXSEG},
-	{"sack-permitted", "SACK permitted",       TCPOPT_SACK_PERMITTED},
-	{"sack",           "Selective ACK",        TCPOPT_SACK},
-	{"timestamp",      "Timestamp",            TCPOPT_TIMESTAMP},
-	{"md5",            "MD5 signature",        TCPOPT_MD5SIG},
+	{"wscale",         "Window scale"},
+	{"mss",            "Maximum Segment Size"},
+	{"sack-permitted", "SACK permitted"},
+	{"sack",           "Selective ACK"},
+	{"timestamp",      "Timestamp"},
+	{"md5",            "MD5 signature"},
 	{NULL},
 };
 
